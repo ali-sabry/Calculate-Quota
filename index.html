@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Calc The Internet</title>
+		<!-- Css Style File -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- App FavIcon -->
+		<link rel="icon" href="favicon.ico" />
+	</head>
+	<body>
+		<!-- Start Main Parent Contains All Section -->
+		<main>
+			<!-- Start Upper Bar Contains Brand Name & Chang Lang -->
+			<nav>
+				<div class="brand-name">
+					<span>calc quota</span>
+				</div>
+				<div class="change_lang">
+					<a href="index_ar.html">ar</a>
+				</div>
+			</nav>
+			<!-- End Upper Bar Contains Brand Name & Chang Lang -->
+			<!-- Start Header Contains Information How To Use App -->
+			<header>
+				<div class="content">
+					<div class="text-info">
+						<p>
+							how to use the app?<br><br>
+							1:: select your quota start date from first input. <br><br>
+							2:: add the total of your quota on the month. <br><br>
+							3:: write the best usage on the day for you .<br><br>
+							4:: clcik the calc button. <br><br>
+							5:: the application will calc your best usage and display it.
+						</p>
+					</div>
+				</div>
+				<div class="calc-option">
+					<form action="">
+						<label>start</label>
+						<input type="date" id="start" placeholder="your strat qouta date">
+						<label>total</label>
+						<input type="number" id="total" placeholder="your total package">
+						<label>daily usage</label>
+						<input type="number" id="daily-usage" placeholder="your daily usage">
+					</form>
+					<div class="result" id="result"></div>
+					<button id="generate" class="generate_btn">calc quota</button>
+					<button id="set" class="set_btn">set</button>
+				</div>
+			</header>
+			<!-- End Header Contains Information How To Use App -->
+			<!-- Start Result Section Show The Usage -->
+			<section class="calc-parent">
+				<div class="calc-head">the result</div>
+				<div class="show-usage"><span></span> gb</div>
+				<div class="calc-function">
+					<h3 class="show-total">total: <span></span> gb</h3>
+					<div class="progress">
+						<span class="progress-bar"></span>
+						<span class="progress-msg"></span>
+					</div>
+					<div class="day">day of month: <span></span> day</div>
+					<div class="used">used: <span></span> gb</div>
+					<div class="clear-fix"></div>
+					<h3 class="remind">remind: <span></span> gb</h3>
+				</div>
+				<div class="notice-msg">the current day is not calculated ⚠</div>
+			</section>
+			<!-- End Result Section Show The Usage -->
+			<!-- Start Footer & Copy Right -->
+			<footer>
+				all right resarved &copy; 2020 <a href="mailto:th3man1998@gmail.com">ali sabry</a>
+			</footer>
+			<!-- End Footer & Copy Right -->
+		</main>
+		<!-- End Main Parent Contains All Section -->
+		<!-- Main Js File -->
+		<script src="js/main.js"></script>
+	</body>
+</html>

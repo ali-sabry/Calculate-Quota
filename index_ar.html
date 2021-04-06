@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Calc The Internet</title>
+		<!-- Css Style File -->
+		<link rel="stylesheet" href="css/ar_style.css" />
+		<!-- App FavIcon -->
+		<link rel="icon" href="favicon.ico" />
+	</head>
+	<body class="arabic-style">
+		<!-- Start Main Parent Contains All Section -->
+		<main>
+			<!-- Start Upper Bar Contains Brand Name & Chang Lang -->
+			<nav>
+				<div class="brand-name">
+					<span>أحسب باقتك</span>
+				</div>
+				<div class="change_lang">
+					<a href="index.html">en</a>
+				</div>
+			</nav>
+			<!-- End Upper Bar Contains Brand Name & Chang Lang -->
+			<!-- Start Header Contains Information How To Use App -->
+			<header>
+				<div class="content">
+					<div class="text-info">
+						<p>
+							1:: كل ما عليك فعلة هو أن تختار وقت بدء الباقة   الشهرية من الحقل الاول . <br>
+							2:: أضافة اجمالى قيمة الباقة الشهرية . <br>
+							3:: اكتب الاستخدام اليومى الأمثل لك . <br>
+							4:: ثم تضغط على  زر أحسب باقتك وسوف يقوم التطبيق بحساب الاستهلاك اليومى الأمثل طوال الشهر حتى تستطيع أن تدير الباقة  . <br>
+							
+							5:: اضغط على زر أعادة الضبط اذا أردت ضبط القيم مرة أخرى.
+							
+						</p>
+					</div>
+				</div>
+				<div class="calc-option">
+					<form action="">
+						<label>تاريخ البدء</label>
+						<input type="date" id="start" placeholder="اختر تاريخ بداية الباقة">
+						<label>الباقة الكلية</label>
+						<input type="number" id="total" placeholder="باقتك الشهرية">
+						<label>الاستهلاك اليومى</label>
+						<input type="number" id="daily-usage" placeholder="الاستخدام اليومى">
+					</form>
+					<div class="result" id="result"></div>
+					
+					<button id="set" class="set_btn">اعادة الضبط</button>
+					<button id="generate" class="generate_btn">احسب باقتك</button>
+				</div>
+			</header>
+			<!-- End Header Contains Information How To Use App -->
+			<!-- Start Result Section Show The Usage -->
+			<section class="calc-parent">
+				<h2 class="calc-head">النتائج</h2>
+				<div class="show-usage"><span></span>جيجا يوميا</div>
+				<div class="calc-function">
+					<h3 class="show-total">الباقة الكلية : <span></span> جيجا بايت</h3>
+					<div class="progress">
+						<span class="progress-bar"></span>
+						<span class="progress-msg"></span>
+					</div>
+					<div class="day">الايام المستخدمة: <span></span> يوم</div>
+					<div class="used">المستهلك: <span></span> جيجا بايت</div>
+					<div class="clear-fix"></div>
+					<h3 class="remind">المتبقى : <span></span> جيجا بايت</h3>
+					<div class="notice-msg">⚠ اليوم الحالى ليس محسوبا ضمن الايام المستخدمة. </div>
+				</div>
+			</section>
+			<!-- End Result Section Show The Usage -->
+			<!-- Start Footer & Copy Right -->
+			<footer>
+				جميع الحقوق محفوظة  &copy; 2020 المصمم : <a href="mailto:th3man1998@gmail.com">على صبرى</a>
+			</footer>
+			<!-- End Footer & Copy Right -->
+		</main>
+		<!-- End Main Parent Contains All Section -->
+		<!-- Main Js File -->
+		<script src="js/main.js"></script>
+	</body>
+</html>
