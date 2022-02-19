@@ -35,15 +35,10 @@ Project is created with:
 
 ```
 ```
-## License
-
-/******************************************************************
-Author      : Ali Sabry
-Author URL  : [Linkedin](https://www.linkedin.com/in/ali-sabry)
-Created     : 2021
-
-All Right Resarved For The Author
+# Lincess
 ******************************************************************/
-/*------------------------------------------------------------------
 
--------------------------------------------------------------------*/
+* Author      : [Ali sabry](https://www.linkedin.com/in/ali-sabry/)
+* Created     : 2021.
+
+* All Copyright Reserved To Author [Ali sabry](https://www.linkedin.com/in/ali-sabry/)
