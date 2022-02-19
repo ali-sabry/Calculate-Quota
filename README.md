@@ -1,17 +1,44 @@
-# Calculate-Internet-Usage.
+# Calculate-Internet-Usage. ![version](https://img.shields.io/badge/version-1.1-brightgreen)
+Calc Your Averge Month Use To Save You Quota (Vanilla Javascript).
 
-Calc Your Best Perfect Usage Of Your Quota.
+```
+```
 
-The Application Build For Help You Manage Your Data Usage.
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Preview Link](#Preview-Link)
 
-Support Two Languages (Arabic - English).
+```
+```
+
+# General info
+The idea came to me when I was suffering from the end of the internet package before the end of the month, so I said why not make an application that helps me give the average daily consumption and the total value of the package, and the program calculates the rate of consumption, the rate of consumption and the rest of the rest.
+
+```
+```
+Application Support Two Languages (Arabic - English).
+
+```
+```
+## Technologies
+Project is created with:
+* HTML5.
+* Css3.
+* JavaScript : Es6.
+
+
+## Preview Link:
+
+Use the link to preview [Calculate Quota App](https://ali-sabry.github.io/calculate-quota).
+
+```
+```
+## License
 
 /******************************************************************
-App Name    : Calculate-Internet-Usage.
-Description : Modern Reminder App With vanila Javascript
 Author      : Ali Sabry
-Author URL  : https://www.linkedin.com/in/ali-safaan/
-Version     : 1.0
+Author URL  : [Linkedin](https://www.linkedin.com/in/ali-sabry)
 Created     : 2021
 
 All Right Resarved For The Author
