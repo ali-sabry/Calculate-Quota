@@ -1,9 +1,15 @@
-# Calculate-Internet-Usage. ![version](https://img.shields.io/badge/version-1.1-brightgreen)
+# Calculate Internet Usage. ![version](https://img.shields.io/badge/version-1.1-brightgreen)
 Calc Your Averge Month Use To Save You Quota (Vanilla Javascript).
 
 ```
 ```
 
+## Preview Link:
+
+Use the link to preview [Calculate Quota App](https://ali-sabry.github.io/calculate-quota).
+
+```
+```
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
@@ -26,11 +32,6 @@ Project is created with:
 * HTML5.
 * Css3.
 * JavaScript : Es6.
-
-
-## Preview Link:
-
-Use the link to preview [Calculate Quota App](https://ali-sabry.github.io/calculate-quota).
 
 ```
 ```
