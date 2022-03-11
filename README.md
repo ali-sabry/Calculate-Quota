@@ -6,7 +6,7 @@ Calc Your Averge Month Use To Save You Quota (Vanilla Javascript).
 <img src="images/preview-ar.png" />
 
 <hr />
-<img src="images/preview-ar.png" />
+<img src="images/preview-en.png" />
 
 <hr />
 
